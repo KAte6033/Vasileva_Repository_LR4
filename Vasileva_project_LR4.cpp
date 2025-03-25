@@ -72,6 +72,9 @@ void modQonP (){
 }
 
 void divQonP (){
+    int div;
+    div = q / p;
+    cout << "Целая часть от деления " << q << " на " << p << " = " << div << endl;
     
 }
 
