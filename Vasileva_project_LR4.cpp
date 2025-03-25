@@ -51,6 +51,7 @@ function <void()> EnterNumber (int& varlink, string label){
     };
 }
 
+int q, p;
 
 void InputQ (){
     
@@ -66,6 +67,9 @@ void modQonP (){
 }
 
 void divQonP (){
+    int div;
+    div = q / p;
+    cout << "Целая часть от деления " << q << " на " << p << " = " << div << endl;
     
 }
 
