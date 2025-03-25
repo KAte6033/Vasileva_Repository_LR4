@@ -51,6 +51,7 @@ function <void()> EnterNumber (int& varlink, string label){
     };
 }
 
+int q, p;
 
 void InputQ (){
     
@@ -58,6 +59,8 @@ void InputQ (){
 }
 
 void IntputP (){
+    EnterNumber (p, "Введите P: ")();
+    cout << "P: " << p << endl;
     
 }
 
