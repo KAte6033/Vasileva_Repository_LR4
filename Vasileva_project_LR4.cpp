@@ -59,6 +59,8 @@ void InputQ (){
 }
 
 void IntputP (){
+    EnterNumber (p, "Введите P: ")();
+    cout << "P: " << p << endl;
     
 }
 
